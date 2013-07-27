@@ -1,13 +1,18 @@
-the 90s called
-(and can't believe that we still have so many bugs)
+Channelling your inner gopher to build secure versatile systems
 24 Jul 2013
 Tags: go
 
 Jameel Haffejee
 @rc1140
 
-* What's This Talk About?
+* What is this Talk About?
 
-GO > X
+Using Go to fix prevent entire classes of bugs
 
-(I am not about to convince you that GO is better than your paticular language if you are looking for a better language go learn lisp.)
+* Its not about convincing you to use Go
+
+I am not about to convince you that GO is better than your paticular 
+language. If you are looking for a better language go learn lisp.
+
+* But its still worth learning if you want to build secure large scale systems
+
