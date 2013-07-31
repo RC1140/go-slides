@@ -1,4 +1,4 @@
-Channelling your inner gopher to build secure versatile systems
+GO : Secure systems dev without segfaults
 24 Jul 2013
 Tags: go
 
@@ -7,12 +7,23 @@ Jameel Haffejee
 
 * What is this Talk About?
 
-Using Go to fix prevent entire classes of bugs
+Learning Stuff (Mostly Go)
 
-* Its not about convincing you to use Go
+* Before Getting started what are common problems faced by C developers
 
-I am not about to convince you that GO is better than your paticular 
-language. If you are looking for a better language go learn lisp.
+Memory management
+Long Compile Times
+Dependancy Management
+App Distribution 
 
-* But its still worth learning if you want to build secure large scale systems
+* With that out of the way lets get dig into Go
 
+* Hello World
+
+  package main
+  
+  import "fmt"
+  
+  func main() {
+      fmt.Println("Hello, 世界")
+  }
