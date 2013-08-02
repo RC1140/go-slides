@@ -9,14 +9,45 @@ Jameel Haffejee
 
 Learning Stuff (Mostly Go)
 
-* Before Getting started what are common problems faced by C developers
+* So what is Go
+    -Concurrent
+    -Staticly typed
+    -Garbage Collected
 
-Memory management
-Long Compile Times
-Dependancy Management
-App Distribution 
+* Why is Go better than X
+This is the first question everyone asks. People rarely like to change languages and most of all YMMV
 
-* With that out of the way lets get dig into Go
+* C
+    +GC
+    +No more segfaults
+    +Built in concurrency
+    -Slower
+
+* Cpp
+    +GC
+    +No more segfaults
+    +Built in concurrency
+    -Slower
+
+* Java
+    +Less boiler plate code
+    +Faster
+
+* C#
+    +No runtime frameworks required
+    +Faster
+    +Cross Compilation
+
+* (Functional Lang)
+    +Faster
+    -Not made of unicorn poop (i.e. you can never convince a functional programmer to use anything else)
+
+* Problems we want to tackle
+    -segfaults
+    -buffer overflows
+    -complicated builds
+
+* Before Jumping into how Go works around these problems lets introduce Go
 
 * Hello World
 
@@ -27,3 +58,12 @@ App Distribution
   func main() {
       fmt.Println("Hello, 世界")
   }
+
+* Explain interface drive development
+
+* Concurreny Example
+
+* Scaling example
+
+* Expalin how Go solves the problems mentioned earlier
+Most of the problems are solved by default because of the way Go is built , so nothing special needs to be done
