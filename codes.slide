@@ -15,7 +15,10 @@ Learning Stuff (Mostly Go)
     -Garbage Collected
 
 * Why is Go better than X
-This is the first question everyone asks. People rarely like to change languages and most of all YMMV
+This is the first question everyone asks. 
+People rarely like to change languages so there is always kick back
+YMMV
+Next few slides cover the common languages
 
 * C
     +GC
@@ -40,7 +43,7 @@ This is the first question everyone asks. People rarely like to change languages
 
 * (Functional Lang)
     +Faster
-    -Not made of unicorn poop (i.e. you can never convince a functional programmer to use anything else)
+    -Not made of unicorn dust (i.e. you can never convince a functional programmer to use anything else)
 
 * Problems we want to tackle
     -segfaults
@@ -61,9 +64,9 @@ This is the first question everyone asks. People rarely like to change languages
 
 * Explain interface drive development
 
-* Concurreny Example
+* Concurrency  Example
 
 * Scaling example
 
-* Expalin how Go solves the problems mentioned earlier
-Most of the problems are solved by default because of the way Go is built , so nothing special needs to be done
+* Explain how Go solves the problems mentioned earlier
+Most of the problems are solved by default because of the way Go is built , so nothing special needs to be done.
